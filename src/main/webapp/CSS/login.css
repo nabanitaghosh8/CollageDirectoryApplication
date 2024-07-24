@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus,
+.login-container select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.login-container button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: #0056b3;
+}
+
+.login-container .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-container h2 {
+        font-size: 20px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container select,
+    .login-container button {
+        font-size: 14px;
+    }
+}
