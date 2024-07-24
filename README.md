@@ -1,4 +1,5 @@
 # College Directory Application
+![College Directory Application Screenshot](https://raw.githubusercontent.com/nabanitaghosh8/CollageDirectoryApplication/main/Screenshot%202024-07-24%20103010.png)
 
 ## Overview
 This application aims to facilitate interaction between students, faculty members, and administrators within a college. The project is currently in progress, with the Administrator and Student sections developed.
@@ -39,7 +40,6 @@ This application aims to facilitate interaction between students, faculty member
 - **Database**: PostgreSQL
 
 ## Running the Application
-![College Directory Application]([https://your-image-url.com/your-image.jpg](https://github.com/nabanitaghosh8/CollageDirectoryApplication/blob/main/Screenshot%202024-07-24%20103010.png))
 1. **Clone the repository**:
     ```sh
     git clone <repository-url>
